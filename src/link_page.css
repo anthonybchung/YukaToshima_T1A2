@@ -1,6 +1,48 @@
+
 .nav_back {
+    display: flex;
+    justify-content: center;
     font-family: 'futura', 'sans-serif';
     font-size: 12px;
     justify-self: center;
+}
 
+.nav_back :hover {
+    font-size: 15px;
+    color: rgb(119, 63, 63);
+    font-weight: bold;
+}
+
+/* head_page */
+.head_page {
+    margin: 70px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* profile */
+
+.profile {
+    display: flex;
+    padding: 80px 0px;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.picture {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    margin: 0 50px;
+}
+
+.profile .description {
+    margin: 0 50px;
+}
+
+/* page_section */
+[class*="page_section"] {
+    padding: 0 150px;
 }
