@@ -61,6 +61,7 @@ header .container{
     display: flex;
     align-items: center;
     margin: 0 15px;
+
 }
 
 .list_nav_header li {
@@ -134,7 +135,7 @@ header .container{
 /* link_page */
 
 .link_page {
-    width: 370px;
+    width: 500px;
     display: flex;
     justify-content: center;
     font-family: 'futura', 'sans-serif';
@@ -142,6 +143,7 @@ header .container{
 }
 
 .link {
+    font-size: 17px;
     margin: 10px;
     padding: 1em;
     background-color: rgb(206, 162, 96); 
@@ -149,6 +151,7 @@ header .container{
 }
 
 .link2 {
+    font-size: 17px;
     margin: 10px;
     padding: 1em;
     background-color: rgb(176, 142, 214); 
@@ -197,6 +200,12 @@ footer .container {
     align-items: center;
 }
 
+.copyright {
+    font-family: 'futura', 'sans-serif';
+    font-size: 13px;
+    padding: 0 auto;
+}
+
 /* list app */
 .icon_back {
     margin: 10px 0;
@@ -217,8 +226,3 @@ footer .container {
     padding: 0 20px;
 }
 
-.copyright {
-    font-family: 'futura', 'sans-serif';
-    font-size: 13px;
-    padding: 0 auto;
-}
